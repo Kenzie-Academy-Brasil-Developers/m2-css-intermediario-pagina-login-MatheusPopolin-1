@@ -1,1 +1,56 @@
-/* Desenvolva seu código aqui... */
+.page {
+  height: 100vh;
+}
+
+.box{
+  width: 714px;
+  height: 407px;  
+}
+
+.description{
+  height: 100%;
+  width: 50%;
+  padding: var(--padding-1);
+  border-radius: 8px 0 0 8px;
+}
+
+.login {
+  width: 50%;
+  border-radius: 0 8px 8px 0;
+}
+
+.login > div {
+  width: 340px;
+  padding: var(--padding-1);
+  gap: 10px;  
+}
+
+.modal_wrapper{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(25, 28, 31, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.modal{
+  width: 350px;
+  height: 350px;
+  border-radius: var(--radius-1);
+  padding: var(--padding-1);
+  gap: 10px;
+  position: fixed;
+}
+
+.modal > div {
+  width: 100%;
+  gap: 5px;  
+}
+
+.show_modal{
+  display: flex;
+}
+
+

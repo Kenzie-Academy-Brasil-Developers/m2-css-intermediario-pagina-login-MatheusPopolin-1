@@ -1,0 +1,10 @@
+.input_default{
+    height: 48px;
+    width: 100%;
+    padding: var(--padding-1);
+    background: var(--color-grey-5);
+    border: 1px solid var(--color-grey-4);
+    color: var(--color-grey-4);
+    border-radius: var(--radius-1);
+    font-size: var(--font-text-3);
+}
